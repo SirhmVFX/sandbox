@@ -1,4 +1,4 @@
-import { TrendPost } from "@/interfaces/sidebar";
+import { TrendPost } from "@/interfaces/interfaces";
 import TrendsPostCard from "./TrendsPostCard"
 
 const RightSideBar = () => {
