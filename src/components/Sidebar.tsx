@@ -1,7 +1,7 @@
 import Link from "next/link";
 import ThemeSwitch from "./ThemeSwitch";
 import { BellIcon, BookmarkIcon, BoxIcon, EyeIcon, WriteIcon } from "./Icons";
-import { SidebarLink } from "@/interfaces/sidebar";
+import { SidebarLink } from "@/interfaces/interfaces";
 import SearchComponent from "./SearchComponent";
 
 const SideBar = () => {
