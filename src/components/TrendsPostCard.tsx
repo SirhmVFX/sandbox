@@ -2,7 +2,7 @@
 
 // import { useState } from "react";
 import { UpVoteIcon } from "./Icons";
-import { TrendPost } from "@/interfaces/sidebar";
+import { TrendPost } from "@/interfaces/interfaces";
 
 const TrendsPostCard = ({post}: {post: TrendPost}) => {
     // const [showEmojis, setShowEmojis] = useState(false)
