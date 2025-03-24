@@ -25,9 +25,9 @@ export const LightModeIcon = () => (
     viewBox="0 0 24 24"
     fill="none"
     stroke="currentColor"
-    stroke-width="2"
-    stroke-linecap="round"
-    stroke-linejoin="round"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
     className="lucide lucide-sun-moon-icon lucide-sun-moon"
   >
     <path d="M12 8a2.83 2.83 0 0 0 4 4 4 4 0 1 1-4-4" />
@@ -56,9 +56,9 @@ export const BoxIcon = ({
     viewBox="0 0 24 24"
     fill="none"
     stroke="currentColor"
-    stroke-width="2"
-    stroke-linecap="round"
-    stroke-linejoin="round"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
     className={`lucide lucide-box-icon lucide-box ${className}`}
   >
     <path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z" />
@@ -81,9 +81,9 @@ export const WriteIcon = ({
     viewBox="0 0 24 24"
     fill="none"
     stroke="currentColor"
-    stroke-width="2"
-    stroke-linecap="round"
-    stroke-linejoin="round"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
     className={`lucide lucide-pencil-icon lucide-pencil ${className}`}
   >
     <path d="M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z" />
@@ -105,9 +105,9 @@ export const BellIcon = ({
     viewBox="0 0 24 24"
     fill="none"
     stroke="currentColor"
-    stroke-width="2"
-    stroke-linecap="round"
-    stroke-linejoin="round"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
     className={`lucide lucide-bell-dot-icon lucide-bell-dot ${className}`}
   >
     <path d="M10.268 21a2 2 0 0 0 3.464 0" />
@@ -130,9 +130,9 @@ export const BookmarkIcon = ({
     viewBox="0 0 24 24"
     fill="none"
     stroke="currentColor"
-    stroke-width="2"
-    stroke-linecap="round"
-    stroke-linejoin="round"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
     className={`lucide lucide-bookmark-icon lucide-bookmark ${className}`}
   >
     <path d="m19 21-7-4-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16z" />
@@ -153,9 +153,9 @@ export const EyeIcon = ({
     viewBox="0 0 24 24"
     fill="none"
     stroke="currentColor"
-    stroke-width="2"
-    stroke-linecap="round"
-    stroke-linejoin="round"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
     className={`lucide lucide-eye-closed-icon lucide-eye-closed ${className}`}
   >
     <path d="m15 18-.722-3.25" />
@@ -180,9 +180,9 @@ export const MediaIcon = ({
     viewBox="0 0 24 24"
     fill="none"
     stroke="currentColor"
-    stroke-width="2"
-    stroke-linecap="round"
-    stroke-linejoin="round"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
     className={`lucide lucide-image-play-icon lucide-image-play ${className}`}
   >
     <path d="m11 16-5 5" />
@@ -206,9 +206,9 @@ export const FileIcon = ({
     viewBox="0 0 24 24"
     fill="none"
     stroke="currentColor"
-    stroke-width="2"
-    stroke-linecap="round"
-    stroke-linejoin="round"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
     className={`lucide lucide-file-icon lucide-file ${className}`}
   >
     <path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" />
@@ -230,9 +230,9 @@ export const GifIcon = ({
     viewBox="0 0 24 24"
     fill="none"
     stroke="currentColor"
-    stroke-width="2"
-    stroke-linecap="round"
-    stroke-linejoin="round"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
     className={`lucide lucide-sticker-icon lucide-sticker ${className}`}
   >
     <path d="M15.5 3H5a2 2 0 0 0-2 2v14c0 1.1.9 2 2 2h14a2 2 0 0 0 2-2V8.5L15.5 3Z" />
@@ -257,9 +257,9 @@ export const PollIcon = ({
     viewBox="0 0 24 24"
     fill="none"
     stroke="currentColor"
-    stroke-width="2"
-    stroke-linecap="round"
-    stroke-linejoin="round"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
     className={`lucide lucide-list-todo-icon lucide-list-todo ${className}`}
   >
     <rect x="3" y="5" width="6" height="6" rx="1" />
@@ -284,9 +284,9 @@ export const EmojiIcon = ({
     viewBox="0 0 24 24"
     fill="none"
     stroke="currentColor"
-    stroke-width="2"
-    stroke-linecap="round"
-    stroke-linejoin="round"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
     className={`lucide lucide-meh-icon lucide-meh ${className}`}
   >
     <circle cx="12" cy="12" r="10" />
@@ -311,9 +311,9 @@ export const ShareIcon = ({
     viewBox="0 0 24 24"
     fill="none"
     stroke="currentColor"
-    stroke-width="2"
-    stroke-linecap="round"
-    stroke-linejoin="round"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
     className={`lucide lucide-share2-icon lucide-share-2 ${className}`}
   >
     <circle cx="18" cy="5" r="3" />
@@ -340,9 +340,9 @@ export const StarIcon = ({
     viewBox="0 0 24 24"
     fill={fill}
     stroke="currentColor"
-    stroke-width="2"
-    stroke-linecap="round"
-    stroke-linejoin="round"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
     className={`lucide lucide-star-icon lucide-star ${className}`}
   >
     <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z" />
@@ -363,9 +363,9 @@ export const CommentIcon = ({
     viewBox="0 0 24 24"
     fill="none"
     stroke="currentColor"
-    stroke-width="2"
-    stroke-linecap="round"
-    stroke-linejoin="round"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
     className={`lucide lucide-message-circle-icon lucide-message-circle ${className}`}
   >
     <path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z" />
@@ -401,7 +401,7 @@ export const FileSearch = ({
     size: number;
     className?: string;
 }) => (
-  <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className={`lucide lucide-search-icon lucide-search ${className}`}><path d="m21 21-4.34-4.34"/><circle cx="11" cy="11" r="8"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={`lucide lucide-search-icon lucide-search ${className}`}><path d="m21 21-4.34-4.34"/><circle cx="11" cy="11" r="8"/></svg>
 );
     
 
@@ -412,5 +412,5 @@ export const Cancel = ({
   size: number;
   className?: string;
 }) => (
-  <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className={`lucide lucide-x-icon lucide-x ${className}`}><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={`lucide lucide-x-icon lucide-x ${className}`}><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
 )
