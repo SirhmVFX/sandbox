@@ -9,3 +9,8 @@ export interface TrendPost {
     text: string;
     trendWord: string;
 }
+
+export interface IconsInterface {
+        size: number;
+        className?: string;
+}
