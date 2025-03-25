@@ -1,3 +1,5 @@
+import { IconsInterface} from "@/interfaces/interfaces";
+
 export const DarkModeIcon = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -42,12 +44,9 @@ export const LightModeIcon = () => (
   </svg>
 );
 
-export const BoxIcon = ({
+export const BoxIcon : React.FC<IconsInterface> = ({
   size,
   className,
-}: {
-  size: number;
-  className?: string;
 }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -67,12 +66,9 @@ export const BoxIcon = ({
   </svg>
 );
 
-export const WriteIcon = ({
+export const WriteIcon : React.FC<IconsInterface> = ({
   size,
   className,
-}: {
-  size: number;
-  className?: string;
 }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -91,12 +87,9 @@ export const WriteIcon = ({
   </svg>
 );
 
-export const BellIcon = ({
+export const BellIcon : React.FC<IconsInterface> = ({
   size,
   className,
-}: {
-  size: number;
-  className?: string;
 }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -116,12 +109,9 @@ export const BellIcon = ({
   </svg>
 );
 
-export const BookmarkIcon = ({
+export const BookmarkIcon : React.FC<IconsInterface> = ({
   size,
   className,
-}: {
-  size: number;
-  className?: string;
 }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -139,12 +129,9 @@ export const BookmarkIcon = ({
   </svg>
 );
 
-export const EyeIcon = ({
+export const EyeIcon : React.FC<IconsInterface> = ({
   size,
   className,
-}: {
-  size: number;
-  className?: string;
 }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -169,10 +156,7 @@ export const EyeIcon = ({
 export const MediaIcon = ({
   size,
   className,
-}: {
-  size: number;
-  className?: string;
-}) => (
+}: IconsInterface) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={size}
@@ -195,10 +179,7 @@ export const MediaIcon = ({
 export const FileIcon = ({
   size,
   className,
-}: {
-  size: number;
-  className?: string;
-}) => (
+}: IconsInterface) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={size}
@@ -219,10 +200,7 @@ export const FileIcon = ({
 export const GifIcon = ({
   size,
   className,
-}: {
-  size: number;
-  className?: string;
-}) => (
+}: IconsInterface) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={size}
@@ -246,10 +224,7 @@ export const GifIcon = ({
 export const PollIcon = ({
   size,
   className,
-}: {
-  size: number;
-  className?: string;
-}) => (
+}: IconsInterface) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={size}
@@ -273,10 +248,7 @@ export const PollIcon = ({
 export const EmojiIcon = ({
   size,
   className,
-}: {
-  size: number;
-  className?: string;
-}) => (
+}: IconsInterface) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={size}
@@ -352,10 +324,7 @@ export const StarIcon = ({
 export const CommentIcon = ({
   size,
   className,
-}: {
-  size: number;
-  className?: string;
-}) => (
+}: IconsInterface) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={size}
@@ -394,13 +363,7 @@ export const UpVoteIcon = ({
 );
 
 
-export const FileSearch = ({
-    size,
-    className,
-}: {
-    size: number;
-    className?: string;
-}) => (
+export const FileSearch : React.FC<IconsInterface> = ({size, className})  => (
   <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={`lucide lucide-search-icon lucide-search ${className}`}><path d="m21 21-4.34-4.34"/><circle cx="11" cy="11" r="8"/></svg>
 );
     
@@ -408,9 +371,6 @@ export const FileSearch = ({
 export const Cancel = ({
   size,
   className,
-}: {
-  size: number;
-  className?: string;
-}) => (
+}: IconsInterface) => (
   <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={`lucide lucide-x-icon lucide-x ${className}`}><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
 )
